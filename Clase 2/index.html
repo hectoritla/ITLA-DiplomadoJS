@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica de Formulario</title>
+</head>
+<body>
+
+    <header style="text-align: center;"><h1>FORMULARIO HTML</h1></header><br><br>
+
+    <section>
+    <form action="" method="GET" target="_self">
+    <fieldset>
+        <legend style="font-weight: bold;">INFORMACION PERSONAL</legend><br>
+            <label for="fname">Primer nombre:</label><br>
+            <input type="text" id="fname" name="nameForm" placeholder="Juan"><br>
+            <label for="lname">Apellido:</label><br>
+            <input type="text" id="lname" name="nameForm" placeholder="Perez"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="nameForm" placeholder="abc@gmail.com"><br><br>
+            <label for="phone">Teléfono:</label><br>
+            <input type="tel" id="phone" name="nameForm" placeholder="809-533-1234" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+            <label for="date">Fecha de Nacimiento:</label><br>
+            <input type="date" id="date" name="nameForm" max="2021-05-19"><br><br><br>
+            <input type="submit" value="Enviar">
+        
+    </fieldset>
+    </form>
+    </section>
+
+
+</body>
+</html>
